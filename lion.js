@@ -14,4 +14,9 @@ Lion.prototype.sayHi = function() {
 	console.log('hi! I"m lion. My name is' + chall.red(this.name));
 };
 
-module.exports = Dog;
+Lion.prototype.eat = function(cat) {
+	// body...
+	this.stomach.push(cat);
+};
+
+module.exports = Lion;
